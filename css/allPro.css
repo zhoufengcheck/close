@@ -1,0 +1,38 @@
+.allProList{width: 1200px;margin: 0 auto;height:4000px;background-image: url(../image/new_bg.jpg);background-size: 100% 100%;}
+/******.allProList fixed******/
+.allProList .fixed{position: fixed;bottom: 0;left: 50%;width: 100px;border: 1px solid #aaa;margin-left: 400px;z-index: 2000;}
+.allProList .fixed #logo{width:100%;height: 40px;}
+.allProList .fixed ul{width:100%;}
+.allProList .fixed ul li{width:100%;float: left;text-align: center;padding: 9px 0;border-bottom: 1px solid #aaa}
+.allProList .fixed ul li:nth-child(1){font-size: 16px;font-weight: bolder;}
+.allProList .fixed ul li a{font-size: 16px;color: black;}
+.allProList .fixed ul li:hover{background-color: #98d2fd;}
+.allProList .fixed ul li:hover>a{color: white;font-weight: bolder;width: 100%;height: 100%;display: block;}
+.allProList .fixed ul li:nth-child(1):hover,.allProList .fixed ul li:nth-child(2):hover{background-color: white}
+/******.allProList .list*******/
+.allProList .list{width: 950px;float: left;overflow: hidden;margin-top: 10px;}
+.allProList .list .title{width: 550px;height: 220px;margin: 0 auto;position: relative;}
+.allProList .list .title img{width: 200px;height: 200px;border-radius: 50%;position: absolute;left:50%;;transform:translateX(-50%);bottom: 0;border: 2px dotted #aaa;}
+.allProList .list .title div{width:100%;height: 100px;background-image:url(../image/allPro/titlebg.png);position: absolute;bottom: 0;background-size: 100% 100%}
+.allProList .list .title span{width: 60px;height: 60px;border-radius: 50%;background-color: #b2d7f1;text-align: center;display: block;line-height: 60px;font-size: 26px;position: absolute; bottom: 95px;transition:0.3s;}
+.allProList .list .title span:nth-child(3){left: 10px;}
+.allProList .list .title span:nth-child(4){left: 85px;}
+.allProList .list .title span:nth-child(5){right: 85px;}
+.allProList .list .title span:nth-child(6){right: 10px;}
+.allProList .list .title:hover>span:nth-child(3){left: 100px;transform:rotate(360deg);}
+.allProList .list .title:hover>span:nth-child(4){left: 145px;bottom:160px;transform:rotate(360deg);}
+.allProList .list .title:hover>span:nth-child(5){right: 145px;bottom:160px;transform:rotate(360deg);}
+.allProList .list .title:hover>span:nth-child(6){right: 100px;transform:rotate(360deg);}
+.allProList .list .pic{width: 95%;overflow: hidden;margin-top: 20px;padding-left: 5%}
+.allProList .list .pic a{width: 204px;height: 300px;display:inline-block;float: left;margin-left: 20px;text-align: center;margin-bottom: 30px;}
+.allProList .list .pic a .show{width: 210px;height: 210px;float: left;}
+.allProList .list .pic a .show img{width: 200px;height: 200px;border: 1px solid #7d7c7f;float: left;}
+.allProList .list .pic a img:hover{width: 202px;height: 202px;}
+.allProList .list .pic a span{width: 100%;display: block;float: left;text-align: left;padding-top: 7px;}
+.allProList .list .pic a span:nth-child(2){font-size: 14px;font-weight: bolder;color: #c9051c;}
+.allProList .list .pic a span:nth-child(3){font-size: 12px;color: #716f6f;}
+.allProList .list .pic a span:nth-child(3):hover{color: #333;text-decoration: underline;}
+.allProList .list .pic a span:nth-child(4){width: 50%}
+.allProList .list .pic a span:nth-child(4):hover{color: #c9051c;}
+.allProList .list .pic a span:nth-child(5){width: 30%;float: right;color: #50caf7}
+.allProList .list .pic a span:nth-child(5):hover{text-decoration: underline;color: #c9051c;}

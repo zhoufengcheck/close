@@ -1,0 +1,138 @@
+/***************.proItem proItem_left************/
+.proItem{width: 1100px;height: 500px;margin: 0 auto;margin-top: 20px;}
+.proItem .proItem_left{width: 390px;height: 100%;margin-right: 10px;float: left;position: relative;}
+.proItem .proItem_left img{width: 380px;height: 380px;float: left;cursor: pointer;}
+.proItem .proItem_left #move{width: 30px;height: 30px;position: absolute;left: 300px;top: 300px;background-color: red;background-color: #333;opacity: 0;background-attachment: scroll;}
+.proItem .proItem_left #scale{position: absolute;width: 380px;height:380px;left: 400px;z-index: 2000;background-image: url(../image/shopping/big1.jpg);background-repeat: no-repeat;display: none;}
+.proItem .proItem_left ul{width: 380px;height:50px;float: left;margin-top: 10px;}
+.proItem .proItem_left ul li{float: left;margin-left: 20px;}
+.proItem .proItem_left ul li img{width: 50px;height: 50px;}
+.proItem .proItem_left ul li.checked{border: 1px solid red;}
+/*****************proItem proItem_right*************/
+.proItem .proItem_right{width: 490px;height: 100%;float: left;/*border: 1px solid red;*/}
+.proItem .proItem_right h1{font-size: 16px;}
+.proItem .proItem_right p{font-size: 14px;color: red;padding-top: 10px;}
+.proItem .proItem_right ul{width: 100%;height: 100%;float: left;}
+.proItem .proItem_right ul li{width: 100%;height: 40px;line-height: 40px;}
+.proItem .proItem_right ul li span{font-size: 12px ;color: #909496;float: left;}
+.proItem .proItem_right ul li strong{font-size: 30px;color:#c40000;}
+.proItem .proItem_right ul li.sales ul{width: 90%;height: 90%;float: left;border: 1px dotted #909496;border-left:none;border-right: none;}
+.proItem .proItem_right ul li.sales ul li{width: 30%;height: 100%;float: left;text-align: center;border-right: 1px dotted #909496;}
+.proItem .proItem_right ul li.sales ul li.checked{border: 1px solid red;}
+.proItem .proItem_right ul li.sales ul li strong{font-size: 12px}
+.proItem .proItem_right ul li.sales ul li:last-child{border: none}
+
+.proItem .proItem_right ul li.size ul{float: left;width: 200px;margin-top: 7px;height: 28px;}
+.proItem .proItem_right ul li.size ul li{margin-left:15px;width: 25px;height: 25px;border: 1px solid #909496;float: left;text-align: center;line-height: 20px;cursor: pointer;}
+.proItem .proItem_right ul li.size ul li.checked{border: 1px solid red;}
+
+.proItem .proItem_right ul li.color ul{float: left;width: 200px;padding-left: 5px;}
+.proItem .proItem_right ul li.color ul li{width: 35px;height: 35px;float: left;margin-left: 10px;}
+.proItem .proItem_right ul li.color ul li img{width: 100%;height: 100%;cursor: pointer;}
+.proItem .proItem_right ul li.color ul li.checked{border: 1px solid red;}
+
+.proItem .proItem_right ul li.number div{position: relative; float: left;width: 100px}
+.proItem .proItem_right ul li.number input{width: 30px;height: 30px;margin-left: 15px;text-align: center;}
+.proItem .proItem_right ul li.number .num_operate{width: 10px;height: 15px;display: block;position: absolute;top:0;left:53px;border: 1px solid #909496;line-height: 10px;text-align: center;transform:rotate(90deg);cursor: pointer;}
+.proItem .proItem_right ul li.number #subnum{top: 50%;}
+.proItem .proItem_right ul li.buy{height: 50px;padding-top: 15px}
+.proItem .proItem_right ul li.buy a{width: 160px;height: 40px;background-color: #ffeded;text-align: center;display: inline-block;line-height: 40px;border: 1px solid #c40000;font-size: 14px;color: #c40000;}
+.proItem .proItem_right ul li.buy a:nth-child(2){background-color:#c40000;color:#ffeded;margin-left: 20px; }
+
+.proItem .proItem_close{width: 150px;height:500px;float: right;position: relative;}
+.proItem .proItem_close .a{width: 100%;height: 480px;overflow: hidden;position: absolute;top:0;left: 0}
+.proItem .proItem_close .a .closeShow{width: 150px;height: 1440px;position: absolute;top:0;left: 0;transition:0.6s;}
+.proItem .proItem_close .a .closeShow a{width: 150px;height: 150px;float: left;display: block;margin-bottom: 10px;position: relative;overflow: hidden;}
+.proItem .proItem_close .a .closeShow a::after{content:"";display:block;width: 100%;height: 20px;background-color: #000;position: absolute;bottom: -20px;transition:0.3s;opacity: 0.3}
+.proItem .proItem_close .a .closeShow a::before{content:"￥30";display:block;width: 100%;height: 20px;display: block;color: white;position: absolute;bottom: -20px;transition:0.3s;text-align: center;font-weight: bolder;z-index: 1000}
+.proItem .proItem_close .a .closeShow a:hover:after{bottom: 0px;}
+.proItem .proItem_close .a .closeShow a:hover:before{bottom: 0px;}
+.proItem .proItem_close .a .closeShow a img{width: 100%;height: 100%;}
+.proItem .proItem_close span{position: absolute;top: 460px; color: #aaa;cursor: pointer;}
+.proItem .proItem_close span{right:87px;}
+.proItem .proItem_close span#down{right:30px;}
+.proItem .proItem_close span:hover{color: #555;}
+/***proButtom .protoLists***********/
+.proButtom{width: 1100px;margin: 0 auto;/*border: 1px solid red;*/overflow: hidden;}
+.proButtom .protoLists{width: 170px;float: left;/*border: 1px solid red;*/}
+.proButtom .protoLists .list{width: 100%;float: left;}
+.proButtom .protoLists .list ul{width: 98%;float: left;margin-bottom: 15px;}
+.proButtom .protoLists .list ul li{width: 100%;background-color: #e0dfdf;text-align:center;}
+.proButtom .protoLists .list ul li a{color: black;}
+/*********proButtom .protoLists .shop***********/
+.proButtom .protoLists .shop ul li{border-bottom: 1px dotted #aaa;}
+.proButtom .protoLists .shop ul li:nth-child(1){font-size: 16px;font-weight: bolder;box-sizing:border-box;padding: 5px 0;}
+.proButtom .protoLists .shop ul li:nth-child(2){height: 90px;padding-top: 10px;} 
+.proButtom .protoLists .shop ul li:nth-child(2) img{width: 120px;height: 40px;}
+.proButtom .protoLists .shop ul li:nth-child(2) a:nth-child(2){width: 80px;height: 20px;background-color: black;color: white;font-size: 14px;font-weight: bolder;display: block;margin: 0 auto;margin-top: 10px;}
+.proButtom .protoLists .shop ul li:nth-child(3){height: 205px;}
+.proButtom .protoLists .shop ul li:nth-child(3) img{width: 125px;height: 100%;}
+/*********proButtom .protoLists.proSort***********/
+.proButtom .protoLists .proSort ul li{height: 30px;line-height: 30px;background-color: #e0dfdf;border: 1px solid #aaa;border-top: none;}
+.proButtom .protoLists .proSort ul li:nth-child(1){background-color: black;}
+.proButtom .protoLists .proSort ul li:nth-child(1) a{color: white;font-weight: bolder;}
+.proButtom .protoLists .proSort ul li a{font-size: 14px;color: black;}
+.proButtom .protoLists .proSort ul li:hover{background-color: #a9d8e8;}
+.proButtom .protoLists .proSort ul li:hover>a{font-weight: bolder;}
+/*********proButtom .protoLists.closeList***********/
+.proButtom .protoLists .closeList ul li{background-color: white;margin-bottom: 20px;border-bottom: 1px solid #aaa}
+.proButtom .protoLists .closeList ul li a:nth-child(1){width: 172px;height: 172px;display: block;}
+.proButtom .protoLists .closeList ul li a:nth-child(2){padding:4px 0 10px 0;display: block;}
+.proButtom .protoLists .closeList ul li a:nth-child(1) img{width: 170px;height: 170px;}
+.proButtom .protoLists .closeList ul li a:nth-child(1) img:hover{width: 172px;height: 172px;}
+.proButtom .protoLists .closeList ul li a:nth-child(2):hover{color: red;}
+/*********proButtom .tabControl***********/
+.proButtom .protoIntro{width: 710px;overflow:hidden;float: left;margin-left: 10px;}
+.proButtom .protoIntro .tabControl{width: 100%;position: relative;float: left;height: 600px;}
+.proButtom .protoIntro .tabControl ul{width: 100%;background-color: #ddd;overflow: hidden;}
+.proButtom .protoIntro .tabControl ul li{width: 100px;height: 40px;line-height: 40px;text-align: center;border: 1px solid #aaa;float: left;cursor: pointer;}
+.proButtom .protoIntro .tabControl ul li.active{background:#c40000;border: none;}
+.proButtom .protoIntro .tabControl .proInfo{height:530px;width: 100%;border:1px solid #aaa;box-sizing:border-box;top:40px;left: 0px;position: absolute;}
+.proButtom .protoIntro .tabControl .show{display: block;}
+.proButtom .protoIntro .tabControl .proInfo div{width: 60%;padding:10px 0;float: left;margin: 20px;border: 1px solid #ddd}
+.proButtom .protoIntro .tabControl .proInfo div img{width:80px;height: 80px;float: left;margin-left: 10px}
+.proButtom .protoIntro .tabControl .proInfo div p{width:300px;height: 70px;float: left;padding-left: 20px;}
+.proButtom .protoIntro .tabControl .proInfo h2{padding:10px 20px;width: 100%; float: left;}
+.proButtom .protoIntro .tabControl .proInfo ul{width: 30%;height:270px;float: left;border: none;margin-left: 20px;}
+.proButtom .protoIntro .tabControl .proInfo ul li{width:100%;height: 40px;float: left;border: none;text-align: left;background-color: white;color: #555454}
+/*********proButtom .proEva***********/
+.proButtom .protoIntro .tabControl .proEva{height:570px;width: 100%;border:1px solid #aaa;box-sizing:border-box;top:40px;left: 0px;position: absolute;background-color: white;display: none;}
+.proButtom .protoIntro .tabControl .proEva .score{width: 80%;overflow:hidden;padding-left: 10%;border: 1px dotted #aaa;margin: 0 auto;margin-top: 10px;}
+.proButtom .protoIntro .tabControl .proEva .score h2{width: 100%; float: left;margin: 10px 0;}
+.proButtom .protoIntro .tabControl .proEva .score h2 span{width: 160px;height: 15px;display: inline-block;background: url(../image/shopping/icon1.gif);background-position:0 -160px;background-repeat: no-repeat;}
+.proButtom .protoIntro .tabControl .proEva .score ul{width: 100%; height:90px;float: left;background-color: white;}
+.proButtom .protoIntro .tabControl .proEva .score ul li{height: 40%;width:35%;float: left;background-color: white;text-align: left;border: none;}
+.proButtom .protoIntro .tabControl .proEva .score ul li span:nth-child(2){width: 100px;height: 10px;display: inline-block;background-color: #ccc;border-radius: 5px;position: relative;}
+.proButtom .protoIntro .tabControl .proEva .score ul li span:nth-child(2):before{width: 80px;height: 10px;content: "";display: block;position: absolute;left: 0;top: 0;background-color:#f9dc1b;border-radius: 5px;}
+
+.proButtom .protoIntro .tabControl .proEva .evaList{width: 90%;overflow:hidden;border: 1px dotted #aaa;margin: 0 auto;margin-top: 10px;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul{width: 100%;background-color: white;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li{width: 100%;float: left;height: 90px;text-align: left;border:none;border-bottom: 1px solid #aaa;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .user{width: 70px;height: 100%;float: left;text-align: center;line-height: 20px;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .user img{width: 60px;height: 60px;border-radius: 50%;padding: 0;margin: 0;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .user span{float: left;padding: 0;width: 100%;text-align: center;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .evaContent{width: 70%;float: left;height: 70px;padding-top:10px;padding-left: 5%;line-height: 20px;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .evaContent span{padding-top: 20px;display: block;float: right;color: #aaa}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li:last-child{border: none;height: 30px;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .page{width: 200px;height: 30px;float: right;}
+.proButtom .protoIntro .tabControl .proEva .evaList ul li .page a{text-decoration: underline;padding-left: 5px;}
+/*********proButtom .proShow***********/
+.proButtom .protoIntro .proShow{width: 100%;overflow: hidden;float: left;font-size: 0;position: relative;margin-top: 20px;}
+.proButtom .protoIntro .proShow img{width: 100%;font-size: 0}
+.proButtom .protoIntro .proShow .link{position:absolute;left:700px;top:0;width: 160px;background-color: #e6e9ea;padding: 90px 0;box-shadow: 2px 2px 2px;opacity:1}
+.proButtom .protoIntro .proShow .linkShow{position:fixed;top: 0;opacity: 1;left: 50%;margin-left: 350px;}
+.proButtom .protoIntro .proShow .link a{width: 100%;height: 50px;float: left;font-size:18px;color: black;}
+.proButtom .protoIntro .proShow .link a span{background-color: white;width: 15px;height:15px;border-radius: 50%;display: inline-block;margin: 0 10px;}
+
+/*********proButtom buy***********/
+
+#buy{width: 1360px;height: 600px;position: fixed;top:0;left: 50%;transform:translateX(-50%);z-index: -1;opacity: 0}
+#buy .bg{width: 100%;height: 100%;background-color: black;position: absolute;top:0;opacity: 0.5}
+#buy dl{background-color: white;width: 350px;height: 300px;position: absolute;top:50%;left: 50%;transform:translate(-50%,-50%);}
+#buy dl dt{width:100%;height:70px;border-bottom: 2px solid #badcf5;text-align:center;font: bold 20px/40px '微软雅黑';box-sizing:border-box;}
+#buy dl dt span{font:14px/10px '微软雅黑';display: block;}
+#buy dl dd{width: 100%;height:40px;border-bottom: 1px dotted #aaa;line-height: 40px;font-size: 16px;padding-left: 100px;box-sizing:border-box;}
+#buy dl dd:nth-child(6){width: 100%;float: left;border-right:1px dotted #aaa;text-align: center;padding-left: 0;}
+#buy dl dd:nth-child(6) a{width:43%;height: 100%;display:inline-block;background-color:#badcf5;color: white;font:bold 14px/40px '微软雅黑';float: left;margin-left:5%;}
+#buy dl dd:nth-child(6) a:hover{background-color: #9adcf9;}
+#buy dl dd:last-child{height: 30px;border: none;color: #555;font-size: 12px;}

@@ -1,0 +1,118 @@
+.news{width: 1360px;margin: 0 auto;height: 700px;position: relative;background-image: url(../image/news/newsbg.jpg);margin-bottom: 10px;}
+.lable{width: 220px;height: 65px;background-color: #525355;position: absolute;text-align: center;line-height: 65px;top:40px;left:275px;}
+.lable span{color: white;font-size: 27px;font-weight: bolder;letter-spacing: 4px;display: block;position: relative;}
+.lable span:before{content: "";width: 20px;height: 20px;border: 4px solid white;display: block;border-bottom: none;border-right: none;position: absolute;top: 10px;left: 25px;}
+.lable span:after{content: "";width: 20px;height: 20px;border: 4px solid white;display: block;border-top: none;border-left: none;position: absolute;bottom: 10px;right: 25px;}
+/****.news .newsList***/
+.news .newsList{width:1000px;height:550px;position: absolute;top:19%;left: 275px;}
+.news .newsList ul{width: 100%;height: 550px;float: left;}
+.news .newsList ul li{position: relative;box-shadow: 1px 1px 2px;box-sizing:border-box;overflow: hidden;}
+.news .newsList ul li:nth-child(1){width: 40%;height:100%;float: left;background-color: white;margin-right: 1%;}
+.news .newsList ul li:nth-child(2){width: 59%;height:40%;float: left;background-color: white;margin-bottom: 0.5%;}
+.news .newsList ul li:nth-child(3),.news .newsList ul li:nth-child(4){width: 29%;height:59.5%;float: left;background-color: white;margin-bottom: 10px;margin-right: 1%}
+.news .newsList ul li:nth-child(4){margin-right: 0}
+.news .newsList ul li .first{width: 100%;height: 100%;position: relative;}
+.news .newsList ul li .first .hot{position: absolute;top:-5px;left: -5px; }
+.news .newsList ul li .first p{color: #494949;font-size: 14px;text-indent: 2em;text-align: left;padding: 5px;}
+.news .newsList ul li .first h1{text-align: center;font-size: 20px;}
+.news .newsList ul li:nth-child(1) .first h1{padding-top: 70px;padding-bottom: 20px;}
+.news .newsList ul li:nth-child(1) .first img{width: 390px;height: 270px;padding: 5px;}
+.news .newsList ul li:nth-child(1) .first .hot{width: 80px;height: 80px;}
+.news .newsList ul li .second1{width: 100%;height: 80%;position: absolute;top:100%;left: 0;background-color: #b2d7f1;transition:0.3s;opacity: 0;text-align: center;overflow: hidden;}
+.news .newsList ul li:hover>.second1{top: 20%;opacity: 1}
+.news .newsList ul li .second1 img{width: 100%;height: 220px;}
+.news .newsList ul li .second1 span{font-size: 30px;font-weight: bolder;padding: 5px;color: white}
+.news .newsList ul li:nth-child(2) .first h1{padding-top: 20px 0;}
+.news .newsList ul li:nth-child(2) .first img{width: 160px;height: 160px;float:left;padding: 5px;}
+.news .newsList ul li:nth-child(2) .first .hot{width: 80px;height: 80px;}
+.news .newsList ul li:nth-child(2) .second2{width: 77%;height: 100%;padding-left:3%;position: absolute;top:0;left: 100%;background-color:#b2d7f1;transition:0.3s;opacity: 0}
+.news .newsList ul li:nth-child(2) .second2 img{width: 140px;height: 140px;float: left;margin-top: 10px;margin-right: 10px;box-shadow: 2px 2px 2px}
+.news .newsList ul li:nth-child(2) .second2 span{width: 80%;float: left;font-size: 20px;margin-top: 10px;font-weight: bolder;color: white;}
+.news .newsList ul li:nth-child(2):hover>.second2{left: 20%;opacity: 1}
+
+.news .newsList ul li:nth-child(3) .first h1,.news .newsList ul li:nth-child(4) .first h1{padding-top: 30px;font-size: 16px;padding-bottom: 10px;}
+.news .newsList ul li:nth-child(3) .first img,.news .newsList ul li:nth-child(4) .first img{width: 280px;height: 150px;padding: 5px;}
+.news .newsList ul li:nth-child(3) .first .hot{width: 60px;height:60px;}
+.news .newsList ul li:nth-child(3) .second3 img{width: 130px;height: 130px;float: left;margin-top: 10px;box-shadow: 2px 2px 2px;margin-left: 10px;margin-bottom: 10px;}
+.news .newsList ul li:nth-child(3) .second3 h3{font-size: 20px;color: white;margin-top: 100px;}
+.news .newsList ul li:nth-child(3) .second3 h2{font-size: 24px;color: white}
+.news .newsList ul li:nth-child(3) .second3 h1{font-size: 28px;color: white}
+
+.news .newsList ul li:nth-child(4) .first .hot{width: 60px;height: 60px;}
+.news .newsList ul li:nth-child(4) .second4 img{width: 100%;height: 170px;float: left;box-shadow: 2px 2px 2px;margin-bottom: 10px;margin-top: 10px;}
+.news .newsList ul li:nth-child(4) .second4 h2{color: white;font-size: 20px;}
+
+.ad{width: 1360px;height: 180px;margin:0 auto;margin-bottom: 10px;position: relative;overflow: hidden;}
+.ad .adShow{width: 100%;height: 540px;position: absolute;top:0;transition:0.6s;font-size: 0}
+
+.newsBefore{background-image: url(../image/news/newsbeforebg.jpg);margin-bottom: 130px;}
+.newsBefore a{display: block;font-size: 20px;position: absolute;bottom: 10px;right: 200px;text-decoration: underline;font-size: 0}
+
+.newsBefore a:hover{color: red}
+/****.news .newsBeforeList***/
+.news .newsBeforeList{width:900px;height:500px;position: absolute;top:19%;left: 275px;overflow: hidden;}
+#container1 input,#container1 a{
+			width:20%;
+			height:50px;
+			line-height:50px;
+			position:absolute;
+			bottom:0;
+			text-align:center;
+			text-decoration:none;
+			font-size:30px;	
+				
+		}
+		#container1 input{opacity:0;cursor:pointer;z-index:100;}
+		#container1 a{z-index:10;background-color:#b2d7f1;color:white;border: 1px solid white;box-sizing:border-box;}
+		/*兄弟选择器，划过input时兄弟a显示颜色*/
+		#container1 input:hover+a{background-color:#85c9f8;}
+		#container1 input:checked+a{background-color:#61baf8;}
+		#container1 input:checked+a::after{
+			content:"";
+			border:20px solid transparent;
+			border-bottom-color:#61baf8;
+			position:absolute;
+			/*相对父容器a的100%*/
+			left:50%;
+			bottom: 100%;
+			margin-left:-20px;/*-20是根据边框来设的（border:20 solid transparent）*/
+		}
+		#container1 .menu1{left:0%;}
+		#container1 .menu2{left:20%;}
+		#container1 .menu3{left:40%;}
+		#container1 .menu4{left:60%;}
+		#container1 .menu5{left:80%;}
+		/*=========container scorll============*/
+		#scroll,#scroll .section{width:100%;height:500px;}
+	 	#scroll{
+			transition:all 0.6s ease-in-out;
+			transform:translate(0,0);/*平移
+			/*background-color:#fff;*/
+		}
+		#scroll .section{
+			position:relative;
+			overflow:hidden;
+			background-color:#fff;
+		}
+
+		#scroll .section h2{
+			position:absolute;
+			top:6%;left:10%;
+			font-size:20px;
+			color:#333;
+		}
+		/*input的id="menu"选择input的兄弟scroll*/
+		/*x~y匹配x之后的同级所有的y元素*/
+		#container1 #menu1:checked~#scroll{transform:translateY(0);/*垂直方向移动*/}
+		/*显示第二个*/
+		#container1 #menu2:checked~#scroll{transform:translateY(-100%);}
+		/*显示第三个*/
+		#container1 #menu3:checked~#scroll{transform:translateY(-200%);}
+		/*显示第四个*/
+		#container1 #menu4:checked~#scroll{transform:translateY(-300%);}
+		/*显示第五个*/
+		#container1 #menu5:checked~#scroll{transform:translateY(-400%);}
+	.newsbefore{width: 80%;background-color: #eeefef;margin: 0 auto;margin-top: 8%;overflow: hidden;box-shadow: 2px 2px 2px #555}
+	.newsBefore1 img{width: 340px;height: 300px;float: left;padding: 5px;}
+	.newsBefore p{font:16px/20px '微软雅黑';text-indent: 2em;letter-spacing: 3px;padding: 5px}
+	.newsBefore2 img{width: 340px;height: 300px;float: left;padding: 5px;}

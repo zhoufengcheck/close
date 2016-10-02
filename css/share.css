@@ -1,0 +1,57 @@
+html,body{width: 100%;height:100%;}
+.main{width: 100%;height:100%;margin: 0 auto;min-width: 1000px;position: relative;}
+/*********.mian .head*********/
+.main .head{width: 100%;height: 170px;border-bottom: 5px solid #aca79a;}
+/*********.mian .head .logo*********/
+.main .head .logo{width: 1360px;height: 130px;margin: 0 auto;}
+.main .head .logo #logo{float: left;margin-left: 200px;margin-top: 10px;width: 308px;height: 111px;display: block;}
+
+.main .head .logo .head_re{width: 390px;height: 100%;float: left;}
+.main .head .logo .head_re a{width: 130px;height: 100%;display: block;float: left;border-radius: 50%;}
+.main .head .logo .head_re a img{width: 100%;height: 100%;border-radius: 50%;}
+
+.main .head .logo .tdc {float: left;width: 170px;height: 60px;margin-top: 35px;margin-left: 60px;}
+.main .head .logo .tdc a{width: 65px;height: 65px;display: inline-block;float: left;border-right: 2px solid black;}
+.main .head .logo .tdc dl{float:left;margin-left: 10px;}
+.main .head .logo .tdc dl dt{font-size: 18px;font-weight: bolder;color:#e0a201;}
+.main .head .logo .tdc dl dd{color:#949087;font-size: 14px;}
+.main .head .logo .tdc dl dd:last-child{color:#949087;font-size: 12px;}
+/*********.mian .head .nav*********/
+.main .head .nav{width: 1200px;height: 40px;background-color:#a8d1ed;margin-top: 10px;padding-left: 160px;margin: 0 auto;}
+.main .head .nav ul{width: 70%;height: 100%;float: left;}
+.main .head .nav ul li{height: 100%;float: left;line-height: 40px;padding:0 20px;}
+.main .head .nav ul li a{font-size: 14px;color: white;}
+.main .head .nav ul li .new{color: #e0a201;}
+.main .head .nav ul li:hover{background-color: #60bafb;}
+
+.main .head .nav .search{float: left;margin-left: 20px;margin-top: 5px;}
+.main .head .nav .search input:nth-child(1){width: 200px;height: 26px;border: 2px solid #999c9f;border-radius: 10px;}
+.main .head .nav .search input:nth-child(2){width: 50px;height: 26px;background-color:#999c9f;}
+/***banner**/
+.main #banner{width: 1360px;height: 600px;position: relative;margin: 0 auto;}
+.main #banner img{width: 100%;height: 100%;}
+.main #banner span{width: 20px;height: 20px;display: block;background-color: white;position: absolute;bottom: 30px;border-radius: 50% ;border: 2px solid #aaa;box-sizing:border-box;}
+.main #banner span.current{background-color: #73c2fb;}
+.main #banner span:nth-child(2){left: 44%;}
+.main #banner span:nth-child(3){left: 47%;}
+.main #banner span:nth-child(4){left: 50%;}
+
+
+/********.main .buttom********/
+.main .bottom{position:relative;width: 1360px;height: 300px;background-color:#d2eafb;margin: 0 auto;margin-top: 150px;}
+.main .bottom .bottoms{width: 450px ;height: 270px;position: absolute;background-color:#badcf5;box-shadow: 5px 5px 5px #838485;}
+.main .bottom .bottom_left{left:12%;top: -40%;}
+.main .bottom .bottom_left img{width: 100%;height: 100%;}
+.main .bottom .bottom_right{right: 14%;top: -40%;}
+.main .bottom .bottom_right img{position: absolute;top:20%;left:50%;transform:translateX(-50%);}
+.main .bottom .bottom_right span{font-size: 30px;font-weight: bold;letter-spacing: 10px;display: block;left:50%;transform:translateX(-50%);bottom: 15%;position: absolute;width: 100%;text-align: center;}
+.main .bottom .bottom_bottom{width: 900px;position: absolute;bottom: 20px;left:50%;transform:translateX(-50%);padding-left: 100px;}
+.main .bottom .bottom_bottom dl{float: left;width:10%;}
+.main .bottom .bottom_bottom dl dt,.main .bottom .bottom_bottom dl dd{width: 100%;float: left;text-align: center;}
+.main .bottom .bottom_bottom dl dt{padding-bottom: 10px;}
+.main .bottom .bottom_bottom a{color: black;}
+.main .bottom .bottom_bottom a:hover{color: blue;}
+/********.main .ensure********/
+.main .ensure{width: 1360px;margin: 0 auto;text-align: center; }
+.main .ensure img{width: 742px;height: 120px;}
+.main .ensure hr{width: 724px;color:#987cb9 ;size:3;margin: 0 auto;margin-top: 10px;margin-bottom: 10px;opacity: 0.5;}*/

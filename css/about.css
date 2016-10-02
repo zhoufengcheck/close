@@ -1,0 +1,42 @@
+.lable{width: 220px;height: 65px;background-color: #525355;position: absolute;text-align: center;line-height: 65px;top:57px;left:275px;}
+.lable span{color: white;font-size: 27px;font-weight: bolder;letter-spacing: 4px;display: block;position: relative;}
+.lable span:before{content: "";width: 20px;height: 20px;border: 4px solid white;display: block;border-bottom: none;border-right: none;position: absolute;top: 10px;left: 25px;}
+.lable span:after{content: "";width: 20px;height: 20px;border: 4px solid white;display: block;border-top: none;border-left: none;position: absolute;bottom: 10px;right: 25px;}
+/***********.story************/
+.story{width: 1360px;margin: 0 auto;text-align: center;position: relative;}
+.story .story_content{width: 780px;height: 400px;background-color: #edeff0;position: absolute;top:50%;left:50%;transform:translate(-52%,-45%);box-shadow: 3px 3px 3px;}
+.story .story_content .txt{width: 95%;padding-top: 20px; overflow: hidden;padding-left: 5%;}
+.story .story_content .txt img{width: 230px;height: 80px;float: left;}
+.story .story_content .txt span{font-size: 18px;text-align: left;width: 400px;float: left;padding-left: 15px;color: #333;}
+.story .story_content .txt span:hover{color: #000;}
+.story #stage{width:600px;height: 300px;position: absolute;bottom: 0; perspective:800px;-webkit-perspective:800px;-moz-persperspective:800px;perspective-origin:60%;/*决定你看的方位*/left:50%; transform:translateX(-50%);}
+.story #stage #container{transform-style:preserve-3d;position: absolute;width: 150px;height: 150px;top:0;left:0;right: 0;bottom:0;margin:auto;cursor: pointer;transition:1s;}
+.story #stage #container img{width: 100%;height: 100%;position: absolute;top:0;left:0;box-shadow: 3px 3px 3px;transition:0.3s;}
+.story #stage #container img:nth-child(1){transform:translateX(-240px) translateZ(-200px);}
+.story #stage #container img:nth-child(2){transform:translateX(-120px) translateZ(-100px);}
+.story #stage #container img:nth-child(3){transform:translateZ(100px);}
+.story #stage #container img:nth-child(4){transform:translateX(100px) translateZ(-100px);}
+.story #stage #container img:nth-child(5){transform:translateX(220px) translateZ(-200px);}
+/***********.quality************/
+.quality{width: 1360px;margin: 0 auto;text-align: center;position: relative;}
+.quality .quality_content{width: 700px;height: 200px;position: absolute;bottom: 80px;left: 275px}
+.quality .quality_content dl{width: 200px;height: 100%;float: left;margin-right: 20px;position: relative;perspective:800px;}
+.quality .quality_content dl dt{width: 80%;height: 40px;font-size: 20px;color: #333;font-weight: bold;border: 1px solid #333;box-sizing:border-box;margin-bottom: 5px;text-align: center;}
+.quality .quality_content dl dd:nth-child(2){width: 80%;height: 150px;font-size: 15px;color: white;background-color: #828384;text-align: left;text-indent: 2em;position: relative;transform-style:preserve-3d;transition:0.5s;padding: 0}
+.quality .quality_content dl dd:nth-child(2) span{backface-visibility:hidden;position: absolute;top:0;width: 100%;height: 100%;display: block;}
+.quality .quality_content dl dd:nth-child(2) span:nth-child(1){background-color: #888;font-size: 14px;color: black;padding: 5px;box-sizing:border-box;}
+.quality .quality_content dl dd:nth-child(2) span:nth-child(2){transform:rotateY(180deg);}
+.quality .quality_content dl dd:nth-child(2) span:nth-child(2) img{width: 100%;height: 100%;position: absolute;left: 0;}
+.quality .quality_content dl dd:nth-child(2):hover{transform:rotateY(180deg);}
+/***********.course************/
+.course{width: 1360px;margin: 0 auto;text-align: center;position: relative;margin-bottom: 100px;}
+.course .course_content{width: 660px;height: 400px;background-color: #edeff0;position: absolute;top:50%;transform:translateY(-45%);left:275px;background-image: url(../image/about/icon1.png);background-position: 20px 30px;background-repeat: repeat-y;box-shadow: 3px 3px 3px;}
+.course .course_content ul{width: 80%;float: left;overflow: hidden;margin-top: 20px;}
+.course .course_content li{width: 80%;float: left;font-size: 25px;height: 30px;margin-bottom: 45px;color: #222;text-align: left;padding-left: 16%}
+.course .course_content li:nth-child(5){margin-bottom: 15px;}
+.course .course_content li:last-child{font-size: 16px;font-weight: bolder;color: #444}
+.course .course_content li:hover{color: #73b98a;font-size: 28px;}
+.course .course_content li:last-child:hover{color: #73b98a;font-size: 20px;}
+
+.ad{width: 1360px;height: 180px;margin:0 auto;margin-bottom: 10px;position: relative;overflow: hidden;}
+.ad .adShow{width: 100%;height: 540px;position: absolute;top:0;transition:0.6s;font-size: 0}
